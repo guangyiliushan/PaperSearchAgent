@@ -17,6 +17,14 @@ export default defineConfig([
     ],
     languageOptions: {
       globals: globals.browser,
+      parserOptions: {
+        projectService: true,
+        tsconfigRootDir: import.meta.dirname,
+      },
+    },
+    rules: {
+      // ui 包导出非组件符号（cva variants、utils 等），关闭此规则
+      'react-refresh/only-export-components': 'off',
     },
   },
 ])

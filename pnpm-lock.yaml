@@ -97,6 +97,21 @@ importers:
         specifier: ^8
         version: 8.0.16(@types/node@24.12.4)(esbuild@0.27.7)(jiti@2.7.0)
 
+  packages/api:
+    dependencies:
+      '@repo/domain':
+        specifier: workspace:*
+        version: link:../domain
+    devDependencies:
+      tsup:
+        specifier: ^8.5.1
+        version: 8.5.1(jiti@2.7.0)(postcss@8.5.15)(typescript@6.0.3)
+      typescript:
+        specifier: 'catalog:'
+        version: 6.0.3
+
+  packages/domain: {}
+
   packages/i18n:
     dependencies:
       i18next:
