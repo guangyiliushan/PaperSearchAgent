@@ -1,0 +1,11 @@
+{
+  "welcome": "欢迎使用 PaperSearchAgent",
+  "toggleTheme": "切换主题",
+  "light": "浅色",
+  "dark": "深色",
+  "system": "跟随系统",
+  "projectReady": "项目已就绪！",
+  "addComponents": "现在可以添加组件并开始构建。",
+  "buttonAdded": "我们已经为你添加了按钮组件。",
+  "pressKey": "（按 {{key}} 切换深色模式）"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "@repo/i18n",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./locales/*": "./dist/locales/*"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "extract": "i18next-parser",
+    "lint": "eslint",
+    "format": "prettier --write \"**/*.{ts,tsx,json}\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "i18next": "catalog:",
+    "react-i18next": "catalog:"
+  },
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "i18next-parser": "catalog:",
+    "tsup": "^8.5.1",
+    "typescript": "catalog:"
+  },
+  "peerDependencies": {
+    "react": "catalog:"
+  }
+}

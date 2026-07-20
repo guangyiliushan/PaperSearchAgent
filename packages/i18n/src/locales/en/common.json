@@ -1,0 +1,11 @@
+{
+  "welcome": "Welcome to PaperSearchAgent",
+  "toggleTheme": "Toggle theme",
+  "light": "Light",
+  "dark": "Dark",
+  "system": "System",
+  "projectReady": "Project ready!",
+  "addComponents": "You may now add components and start building.",
+  "buttonAdded": "We've already added the button component for you.",
+  "pressKey": "(Press {{key}} to toggle dark mode)"
+}
